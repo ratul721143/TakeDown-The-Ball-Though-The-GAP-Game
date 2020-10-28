@@ -1,0 +1,68 @@
+*{
+    padding: 0;margin:0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#gameArea{
+    width: 100vw;
+    height:100vh;
+    background:url('stoneback.jpg') ;
+    background-position: center;
+    background-size:cover ;
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    color:white;
+}
+
+#card{
+    position:absolute;
+    top:20px;
+    left:25px;
+}
+
+h1,p{
+    margin-bottom:45px;
+    text-shadow: 1px 2px 1px black;
+}
+p{
+    font-size: 30px;
+    font-weight: 500;
+}
+#game{
+    width:400px;
+    height:500px;
+    border:5px solid gray;
+    box-shadow: 5px 1px 5px black,20px 1px 10px skyblue;
+    margin:auto;
+    overflow: hidden;
+}
+
+#character{
+    width:20px;
+    height:20px;
+    background:linear-gradient(rgba(255, 0, 0, 0.61),black) ;
+    border-radius: 50%;
+    position:relative;
+    top:440px;
+    left:190px;
+    z-index:100000;
+}
+
+.block{
+    width:400px;
+    height:20px;
+    background: linear-gradient(rgb(138, 138, 201),rgb(22, 21, 21));
+    position: relative;
+    top:100px;
+    margin-top: -20px;
+}
+
+.hole{
+    width:40px;
+    height:20px;
+    background-color:gainsboro;
+    position:relative;
+    top:100px;
+    margin-top: -20px;
+}
